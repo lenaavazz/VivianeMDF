@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    border: none;
+}
+
+body {
+    background-image: url('../img/marmorepreto.jpg');
+}
+
+textarea:focus, input:focus {
+    outline: none;
+}
+
+a, label {
+    font-size: .8rem;
+}
+
+a:hover {
+    color: blue;
+}
+
+/* Container Login */
+
+#login-container {
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10%;
+    border-radius: 50px;
+    text-align: center;
+}
+
+/* formulário */
+
+form {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+label, input {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+label {
+    font-weight: bold;
+}
+
+input {
+    border: 2px solid grey;
+    padding: 10px;
+    font-size: 1rem;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+input:focus {
+    border: 2px solid #191970;
+}
+
+input[type="submit"] {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    color: black;
+    background-color: rgb(129, 129, 129);
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: rgb(2, 50, 182);
+   
+}
+
+#register-container {
+    text-align: left;
+}
+
+#formulario-container {
+    background-color: white;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    margin-top: 5vh;
+    border-radius: 20px;
+    text-align: center;
+    border: 1px solid;
+    margin-bottom: 5vh;
+}
+
+#button-cadastrar {
+    border-radius: 10px;
+}
+
+#cadastro-login {
+    text-align: center;
+
+}
+
+#button-cadastrar {
+    width: 100px;
+}
+
+#cadproduto-container {
+    text-align: center;
+    background-color: rgb(247, 247, 247);
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px 30px;
+    margin-top: 10vh;
+    border-radius: 20px;
+}

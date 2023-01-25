@@ -1,0 +1,19 @@
+:root{
+
+    --branco: #ffffff;
+    --cinza-claro: #f0f0f0;
+    --cinza-medio: #919992;
+    --cinza-escuro: #444444;
+    --preto: #080808;
+    
+}
+.espacamento{
+   margin-top: 15px !important;
+}
+.espacamento-campos{
+    margin-top: 10px !important;
+}
+.label-espaco{
+    display: inline-block;
+    margin-bottom: 0.0rem;
+}
